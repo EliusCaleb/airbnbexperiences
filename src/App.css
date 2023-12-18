@@ -93,3 +93,36 @@ section {
   border-radius: 2px;
   font-weight: bold;
 }
+
+@media only screen and (min-width: 768px) {
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  nav {
+    width: 100%;
+    max-width: 1200px; 
+  }
+
+  section {
+    max-width: 800px; 
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero--photo {
+    max-width: 100%; 
+  }
+
+  .cards-list {
+    justify-content: center;
+  }
+}
